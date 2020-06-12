@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%= render 'head' %>
+		<meta name="description" content="Frequently Asked Questions Page">
+	</head>
+	<body>
+		<%= render 'top-bar' %>
+		<%= render 'nav-bar' %>
+		<div class="container-fluid grey-background pb-3 pt-4" id="faq-page-outer-container">
+			<div class="container-fluid p-0" id="faq-page-inner-container">
+				<p class="responsive-text-size yellow-text">Bringing live music to you in a time of social distancing</p>
+				<p class="green-text responsive-text-big">Frequently Asked Questions (FAQ)</p>
+				<p class="responsive-text-med">What's this all about?</p>
+				<ul class="pl-4 pl-sm-5">
+					<li class="responsive-text-size">
+						The social distancing guidelines related to the COVID-19 pandemic have made it hard to find live music in the usual places. Driveway Bands is a temporary community service, bringing live music to you and your guests, on your property. Your driveway can become a performance venue.
+					</li>
+				</ul>
+				<p class="responsive-text-med">What kind of music do you play?</p>
+				<ul class="pl-4 pl-sm-5">
+					<li class="responsive-text-size">
+						The band doing this - Random and True - mostly covers singer/songwriters from the 70s, 80s and 90s. In the menu above, please click <%= link_to("here", '/static_pages/theband', class: "responsive-text-size") %> to learn more.
+					</li>
+				</ul>
+				<p class="responsive-text-med">What does it cost?</p>
+				<ul class="pl-4 pl-sm-5">
+					<li class="responsive-text-size">
+						Concerts cost $100 for a 60-minute set and $150 for a 90-minute set. In case budget is an issue, please contact drivewaybands@gmail.com to see if we can work something out.
+					</li>
+				</ul>
+				<p class="responsive-text-med">What do I need to provide?</p>
+				<ul class="pl-4 pl-sm-5">
+					<li class="responsive-text-size">
+						The band will need a dry and fairly flat area about 6' x 12'. Electric power is needed to run the PA, but an unamplified concert is an option for locations with no electricity.
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%= render 'head' %>
+		<meta name="description" content="The Band Page">
+	</head>
+	<body>
+		<%= render 'top-bar' %>
+		<%= render 'nav-bar' %>
+		<div class="container-fluid grey-background pb-3 pt-4" id="how-it-works-page-outer-container">
+			<div class="container-fluid p-0" id="how-it-works-page-inner-container">
+				<p class="responsive-text-size yellow-text">Bringing live music to you in a time of social distancing</p>
+				<p class="green-text responsive-text-big">The Band</p>
+				<p class="green-text responsive-text-size">Random and True (click pic for more)</p>
+		 		<div class="text-center" id="theband-page-img1-container">
+		 			<a href="https://www.randomandtrue.com/" target="_blank">
+						<%= image_tag("2020Jun12-UnderTree.jpg", alt: "Geoff and Steve look comfortable and friendly in your driveway", class: "blue-border img-fluid", id: "theband-page-img1") %>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
