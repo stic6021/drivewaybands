@@ -1,0 +1,77 @@
+
+#about-us-inner-container, #contact-us-inner-container {
+	background: white;
+}
+
+#about-us-outer-container, #contact-us-outer-container, #home-page-outer-container {
+	background: grey;
+}
+
+#about-us-text, #contact-us-text, #what-we-do-text {
+	line-height: 4;
+}
+
+.black-bg {
+	background: black!important;
+}
+
+.blue-border {
+	border: cyan solid 1px;
+}
+
+.bolder-text {
+	font-weight: bolder!important;
+}
+
+#db-logo {
+	max-width: 12vw;
+}
+
+.ninety-percent-wide {
+	width: 90%!important;
+}
+
+.green-background {
+	background: lightgreen;
+}
+
+.green-text {
+	color: lightgreen!important;
+}
+
+#home-page-inner-container {
+	background: grey;
+}
+
+#main-navbar-container {
+	line-height: 0;
+	max-height: 6vw;
+}
+
+.responsive-text-big {
+/* See https://websemantics.uk/tools/responsive-font-calculator/
+	/* 14px @ 245px increasing to 48px @ 1080px */
+	font-size: clamp(14px, calc(0.5rem + (48 - 14) * ((100vw - 245px) / (1080 - 245))), 48px)!important;
+	/* Safari resize fix */
+	min-height: 0vw;
+}
+
+.responsive-text-med {
+/* See https://websemantics.uk/tools/responsive-font-calculator/
+	/* 12px @ 245px increasing to 36px @ 1080px */
+	font-size: clamp(12px, calc(0.5rem + (36 - 12) * ((100vw - 245px) / (1080 - 245))), 36px)!important;
+	/* Safari resize fix */
+	min-height: 0vw;
+}
+
+.responsive-text-size {
+/* See https://websemantics.uk/tools/responsive-font-calculator/
+	/* 6px @ 245px increasing to 24px @ 1080px */
+	font-size: clamp(6px, calc(0.5rem + (24 - 6) * ((100vw - 245px) / (1080 - 245))), 24px)!important;
+	/* Safari resize fix */
+	min-height: 0vw;
+}
+
+#vignetted-shield {
+	max-height: 6vh;
+}
