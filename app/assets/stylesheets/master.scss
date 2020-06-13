@@ -19,6 +19,10 @@
 	border: cyan solid 1px;
 }
 
+.blue-text {
+	color: cyan;
+}
+
 .bolder-text {
 	font-weight: bolder!important;
 }
@@ -68,6 +72,14 @@
 /* See https://websemantics.uk/tools/responsive-font-calculator/
 	/* 6px @ 245px increasing to 24px @ 1080px */
 	font-size: clamp(6px, calc(0.5rem + (24 - 6) * ((100vw - 245px) / (1080 - 245))), 24px)!important;
+	/* Safari resize fix */
+	min-height: 0vw;
+}
+
+.responsive-text-small {
+/* See https://websemantics.uk/tools/responsive-font-calculator/
+	/* 4px @ 245px increasing to 16px @ 1080px */
+	font-size: clamp(4px, calc(0.4rem + (16 - 4) * ((100vw - 245px) / (1080 - 245))), 16px)!important;
 	/* Safari resize fix */
 	min-height: 0vw;
 }
